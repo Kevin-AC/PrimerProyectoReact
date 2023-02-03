@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+    .buton{
+        @apply transition ease-linear duration-200 text-black font-semibold bg-slate-900 w-20  h-9 rounded-full cursor-pointer border border-slate-700 
+    }
+    .butonhover{
+        @apply  text-white hover:bg-red-900 hover:bg-opacity-20 hover:text-rose-700 hover:border-red-700 w-36
+    }
+   
+@tailwind utilities;
